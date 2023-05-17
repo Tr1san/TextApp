@@ -1,0 +1,21 @@
+.Profession{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 83px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+    background-color: white;
+    font-size: 24px;
+    padding: 5px;
+}
+.Profession.active{
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    transition: 1s;
+}

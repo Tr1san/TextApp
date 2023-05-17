@@ -1,0 +1,35 @@
+.Form{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.Container{
+    margin-top: 10px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+.InputContainer{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    text-align: center;
+    font-size: 26px;
+}
+input{
+    margin-top: 10px;
+    width: 100%;
+    font-size: 24px;
+}
+.send{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin-top: 10px;
+    font-size: 24px;
+}
+

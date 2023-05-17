@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import s from "./ProfessionList.module.css"
 import ProfessionList from "./ProfessionList";
 import ProfService from "../API/ProfService";
+import Form from "../Form/Form";
 
 const prod = [
     {id: '1', name: 'Доцент'},
@@ -25,7 +26,11 @@ const ProfessionListContainer = () => {
 
     if (appState) {
         return (
-            <ProfessionList prof={appState}/>
+            <div>
+                <Form/>
+                <ProfessionList prof={appState}/>
+            </div>
+
         )
     } else {
         return (
