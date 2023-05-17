@@ -1,0 +1,21 @@
+.ProfessionList{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.BtnAdd{
+    width: 40px;
+    margin-top: 10px;
+}
+.Load{
+    width: 100px;
+}
+
